@@ -1,0 +1,84 @@
+body {
+	background-image: url(4881310.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  .container {
+	background-color: rgba(76, 199, 219, 0.233);
+	padding: 40px;
+	border-radius: 10px;
+	max-width: 400px;
+	margin: auto;
+	margin-top: 80px;
+	box-shadow: 0px 0px 20px rgb(0, 0, 0);
+	color: #000;
+  }
+  
+  h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	color: #000;
+	margin-bottom: 40px;
+  }
+  
+  label {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 10px;
+  }
+  
+  input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+  button[type=submit] {
+	background-color: #d2230c;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 1.2rem;
+  }
+  
+  button[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  label input[type=checkbox] {
+	margin-bottom: 15px;
+  }
+  
+  /* Media queries */
+  @media (max-width: 480px) {
+	.container {
+	  padding: 20px;
+	}
+	
+	h1 {
+	  font-size: 2rem;
+	}
+	
+	label {
+	  font-size: 1rem;
+	}
+	
+	input[type=text], input[type=password] {
+	  font-size: 1rem;
+	}
+	
+	button[type=submit] {
+	  font-size: 1.1rem;
+	}
+  }
+  

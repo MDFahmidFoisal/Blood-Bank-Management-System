@@ -1,0 +1,35 @@
+body {
+    background-image: url("page03.jpg");
+    background-color: #cccccc;
+   }
+
+
+
+
+   h1{
+    font-size: 75px;
+    text-align: center;
+    color: #fb330c;
+   }
+
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  p{
+    text-align: center;
+    font-size: 50px;
+    color: #0b32f6f6;
+
+
+  }
+  pre{
+    text-align: center;
+    font-size: 25px;
+    color: #fefdfd;
+
+  }
+ 
